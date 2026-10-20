@@ -13,6 +13,7 @@ dependencies = [
     "plotly-express>=0.4.1",
     "scipy>=1.18.1",
     "seaborn>=0.13.2",
+    "ucirepo",
 ]
 
 
