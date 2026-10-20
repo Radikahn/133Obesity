@@ -1,0 +1,23 @@
+[project]
+name = "obesity"
+version = "0.1.0"
+description = "CS133 Project 1"
+readme = "README.md"
+
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "nbformat>=5.11.1",
+    "pandas>=3.0.5",
+    "plotly==5.24.1",
+    "plotly-express>=0.4.1",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+obesity = "obesity:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
